@@ -3,47 +3,48 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  Property <%= @property.propert %>
+  Property: <%= @property.propert %>
 </p>
 
 <p>
- Rent <%= @property.rent %>yern
+ Rent: <%= @property.rent %>yern
 </p>
 
 <p>
-  Address <%= @property.address %>
+  Address: <%= @property.address %>
 </p>
 
 <p>
-Building age <%= @property.building_age %>
+Building age: <%= @property.building_age %>
 </p>
 
 <p>
-  Remarks<%= @property.remarks %>
+  Remarks:<%= @property.remarks %>
 </p>
 <hr>
+<b> Nearest station 1</b>
 <p>
-Name of railway line<%= @property.namer %>
+Name of railway line:<%= @property.namer %>
 </p>
 
 <p>
- Station name <%= @property.station %>
+ Station name: <%= @property.station %>
 </p>
 
 <p>
-  How many minutes walk <%= @property.minut %>/mins
+  How many minutes walk: <%= @property.minut %>/mins
+</p>
+<b> Nearest station 2</b>
+<p>
+ Name of railway line:<%= @property.namer1 %>
 </p>
 
 <p>
- Name of railway line<%= @property.namer1 %>
+ Station name: <%= @property.station1 %>
 </p>
 
 <p>
- Station name <%= @property.station1 %>
-</p>
-
-<p>
-  How many minutes walk<%= @property.minut1 %>
+  How many minutes walk:<%= @property.minut1 %>mins
 </p>
 
 <%= link_to 'Edit_propety_information', edit_property_path(@property) %> |
